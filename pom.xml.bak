@@ -20,13 +20,6 @@
            </dependency>
        </dependencies>
        <!-- end::joda[] -->
-
-	<distributionManagement>
-     <repository>
-      <id>maven-releases</id>
-      <url>http://192.168.1.106:8081/#browse/browse:maven-releases/</url>
-    </repository>
-  </distributionManagement>
        
     <build>
         <plugins>
@@ -53,4 +46,10 @@
             </plugin>
         </plugins>
     </build>
+	<distributionManagement>
+    <repository>
+      <id>maven-releases</id>
+      <url>http://192.168.1.106:8081/#browse/browse:maven-releases/</url>
+    </repository>
+  </distributionManagement>
 </project>
